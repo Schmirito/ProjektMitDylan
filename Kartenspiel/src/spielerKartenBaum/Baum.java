@@ -40,4 +40,16 @@ public class Baum {
 		}
 
 	}
+	public void ausgabeKarten() {
+		readValues(root);
+	}
+	
+	public void readValues(Node parent) {
+		    if(parent.left != null)
+		      readValues(root.left);
+		    System.out.print(parent.value);
+		    if(parent.right != null)
+		      readValues(parent.right);
+		 
+	}
 }
