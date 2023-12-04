@@ -7,6 +7,7 @@ public class Zugstapel {
 	String farbe;
 	int wert;
 	
+	
 	public String getNeueKarteFarbe() {
 		return farbe = farben[(int) (Math.random()+3)];
 		
@@ -14,4 +15,11 @@ public class Zugstapel {
 	public int getNeueKarteWert() {
 		return wert = werte[(int) (Math.random()+9)];
 	}
+	
+	public static void main(String[] args) {
+		
+		
+	
+	}
+	
 }
